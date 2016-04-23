@@ -1,0 +1,18 @@
+pt:
+  not_filled: 'Não preenchido'
+  days: dias
+  facebook_locale: pt_BR
+  failure_title: 'Por favor, corrija os seguintes erros:'
+  i_just_contributed: Eu acabei de apoiar o projeto %{name} no @entropia_coletiva
+  'no': Não
+  'yes': Sim
+  not_informed: não informado
+  or: ou
+  sending: Enviando...
+  share_my_contributions: 'Confira o projeto '
+  site:
+    description:  O Entropia Coletiva é a primeira plataforma de crowdfunding de projetos científicos, ou financiamento coletivo, do Brasil. Venha tirar projetos do papel!
+    keywords: crowdfunding, financiamento coletivo, entropia, coletiva, comunidade, ciência
+    meta_title: "%{title} · %{company_name}"
+    title: Financiamento Coletivo de Ciência! Entropia Coletiva
+

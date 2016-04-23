@@ -1,0 +1,54 @@
+pt:
+  pages:
+    hello:
+      page-title: "Saiba mais"
+      hero:
+        title: "Vamos juntos fazer ciência!"
+        people_html: "Pessoas já apoiaram pelo menos <br>1 projeto de pesquisa no Entropia Coletiva"
+        projects_html: "Projetos já foram <br>financiados no Entropia Coletiva"
+        money_html: "Doados para projetos <br>publicados por aqui"
+        success: "Projetos já foram financiados no Entropia Coletiva"
+        money: "Doados para projetos publicados por aqui"
+      idea:
+        title: "Tudo começa com ciência!"
+        subtitle: "Mas ter um projeto não basta. É preciso ter acesso  aos recursos necessários para financiá-lo."
+      fund:
+        title: "Financiamento Coletivo"
+        subtitle: "No Entropia Coletiva, isso é possível. Pesquisadores de várias áreas se conectam a apoiadores interessados em contribuir com a ciência através de pequenas doações."
+      campaign:
+        title: "Campanhas de arrecadação"
+        subtitle: "Pesquisadores têm até 60 dias para captar a meta financeira que determinaram para o desenvolver o projeto de pesquisa. Em troca dos apoios, oferecem a divulgação científica direta e/ou outras recompensas criativas."
+      allornothing:
+        title: "Campanhas flexíveis!"
+        subtitle: "O objetivo é bater a meta no prazo para receber o valor arrecadado, neste caso a taxa do Entropia Coletiva será de 13%. Se a meta não for alcançada, a taxa passa a 18%. Planejar a campanha e definir uma meta realista são os  segredos!"
+      success:
+        title: "O projeto de pesquisa foi financiado!"
+        subtitle: "Apoiadores querem ver o projeto acontecer. Com o sucesso da campanha, pesquisadores desenvolvem o projeto e os apoidores acompanham o andamento, através de postagens do pesquisador!"
+      cta:
+        title: "Conheça o Entropia Coletiva na prática"
+        backer-cta: "Torne-se um apoiador da ciência!"
+        backer-link: "Apoie um projeto"
+        maker-cta: "Pesquisador, mostre seu projeto de pesquisa ao mundo e arrecade dinheiro para financiá-lo."
+        maker-link: "Comece seu projeto"
+      testimonial:
+        humberto:
+          text_html: "&#8220; A plataforma Entropia Coletiva traz a solução para dois grandes problemas da ciência brasileira. A falta de verbas para financiar as pesquisas e a distância entre quem faz as pesquisas e a população. &#8221;"
+          name: "Dr. Silva Sauro"
+          credentials: "Diretor do NHI"
+      details:
+        fund:
+          title: "Financiamento Coletivo ou Crowdfunding?"
+          text: "Dois nomes para a mesma prática em que pessoas contribuem com pequenas quantias para juntas viabilizarem projetos científicos. Crowd é multidão em inglês, funding, financiamento. Crowdfunding é financiamento pela multidão."
+        allornothing:
+          title: "Por que financiar ciência com crowdfunding?"
+          text_html: "Acreditamos em uma ciência mais integrada com a população. A ciência deve atravessar os muros da academia e chegar a população. O crowdfunding permite uma participação direta da população, escolhendo que projetos financiar e recebendo o conhecimento científico diretamente de onde ele é produzido."                        
+        services:
+          title: "Nossos serviços"
+          text: "O Entropia Coletiva fornece suporte aos usuários do site e torna possível que projetos científicos captem recursos de forma ágil e direta utilizando a internet. Qualquer pessoa acima de 18 anos (ou menor, mas com um representante legal) pode utilizar nossos serviços e fazer uma campanha de crowdfunding desde que o projeto esteja de acordo com nossos critérios de seleção."
+        fees:
+          title: "Como nos sustentamos"
+          text: "Cobramos 13% sobre o valor total de projetos que atingirem ou ultrapassarem a meta de arrecadação. Serão cobrados 18% dos projetos que não atingirem a meta. Ficamos com cerca de 9% e 4% é repassado ao Iugu.com, meio de pagamento utilizado no Entropia Coletiva."
+        work:
+          title: "Trabalhamos com propósito e amor"
+          text: "O Entropia Coletiva é independente, sem investidores, de código aberto e construído com amor. Nossa paixão é construir um ambiente onde cada vez mais projetos científicos possam ganhar vida. Hoje somos uma equipe de 3 pessoas com muita vontade de ajudar a distribuir mais recursos para a ciência no Brasil."
+      staff: "Se enxerguei mais longe, foi por estar sobre os ombros de gigantes...Sir Isaac Newton"
