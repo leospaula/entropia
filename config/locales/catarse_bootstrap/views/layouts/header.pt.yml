@@ -5,7 +5,7 @@ pt:
       discover: Pesquise
       hello: Entenda
       faq: FAQ
-      help: Fale conosco
+      help: Blog
       profile: Meus dados
       projects: Meus projetos
       signin: Login
@@ -13,7 +13,7 @@ pt:
       submit: Entre com seu projeto
       search: Busque projetos
     login:
-      login_with_facebook: entre com sua conta do facebook
+      login_with_facebook: Entre com sua conta do Facebook
     user:
       my_contributions: Meus apoios
       logout: Sair

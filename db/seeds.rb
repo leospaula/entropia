@@ -17,7 +17,7 @@ puts 'Seeding the database...'
   { pt: 'Educação', en: 'Film & Video', fr: 'Cinéma' },
   { pt: 'Ciências Médicas', en: 'Games', fr: 'Jeux' },
   { pt: 'Psicologia e Psiquiatria', en: 'Journalism', fr: 'Journalisme' },
-  { pt: 'Arte e Designe', en: 'Music', fr: 'Musique' },
+  { pt: 'Arte e Designer', en: 'Music', fr: 'Musique' },
   { pt: 'Sociologia e Ciências Políticas', en: 'Photography', fr: 'Photographie' },
   { pt: 'Antropologia', en: 'Science & Technology', fr: 'Sciences et technologies' },
   { pt: 'História', en: 'Theatre', fr: 'Théatre' },

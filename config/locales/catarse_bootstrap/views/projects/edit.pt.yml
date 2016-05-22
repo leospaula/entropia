@@ -176,6 +176,6 @@ pt:
       online_days: 'Prazo para arrecadação'
       online_days_label: 'Você pode escolher entre 1 e 60 dias para a sua campanha.'
       value: 'Valor a ser arrecadado'
-      value_secondary: 'Planeje uma meta coerente com o que seu projeto propõe. Revise seu orçamento e não esqueça de incluir a taxa cobrada pelo Entropia Coletiva.'
+      value_secondary: 'Planeje uma meta coerente com o que seu projeto propõe. Revise seu orçamento e não esqueça de incluir a taxa cobrada pela Entropia Coletiva.'
       form:
         submit: 'Salvar'

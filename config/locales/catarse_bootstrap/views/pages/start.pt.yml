@@ -1,13 +1,13 @@
 pt:
   pages:
     start:
-      page-title: "Como funciona o Entropia Coletiva?"
+      page-title: "Como funciona a Entropia Coletiva?"
       title: "Financie seu projeto científico coletivamente"
       submit: "Entre com seu projeto"
       learn-more: "Entenda"
       header:
-        people: "Pessoas já apoiaram pelo menos 01 projeto no Catarse"
-        success: "Projetos já foram financiados no Catarse"
+        people: "Pessoas já apoiaram pelo menos 01 projeto na Entropia Coletiva"
+        success: "Projetos já foram financiados na Entropia Coletiva"
         money: "Doados para projetos publicados por aqui"
       start:
         title: "Comece seu projeto"
@@ -19,10 +19,10 @@ pt:
         link: 'Saiba quantos apoiadores você precisará mobilizar'
       work:
         title: "Campanha Flexível"
-        content: "Quem define a meta de arrecadação e tempo de campanha é você. Escolha entre 1 e 60 dias para realizar sua campanha em busca de apoiadores. Cobramos uma taxa de 13% do total arrecadado dos projetos que alcançarem a meta, os projetos que não alcançarem a meta pagarão uma taxa de 18%."
-        link: 'Receba dicas de campanhas de sucesso no Catarse'
+        content: "Quem define a meta de arrecadação e tempo de campanha é você. Escolha entre 1 e 60 dias para realizar sua campanha em busca de apoiadores. Cobramos uma taxa de 13% do total arrecadado dos projetos."
+        link: 'Receba dicas de campanhas de sucesso na Entropia Coletiva'
       time:
         title: "Mobilize apoiadores"
         content: "Comunique-se bem durante sua campanha e trate bem seus apoiadores! Eles são a força do seu projeto e são quem realmente vai determinar o sucesso ou não da campanha! O Entropia Coletiva é uma forma de você se aproximar das pessoas que gostam de ciência, expandir essa rede e formar público para sua pesquisa."
-        link: 'Saiba como nossa taxa ajuda a manter o Entropia Coletiva'
+        link: 'Saiba como nossa taxa ajuda a manter a Entropia Coletiva'
         

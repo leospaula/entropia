@@ -13,7 +13,7 @@ pt:
         confirmed_amount_by_day: 'Total arrecadado por dia'
         address_state: 'Total de apoios confirmados por Estado'
     reminder:
-      ok: 'Ok! Vamos te mandar um lembrete por e-mail 48 horas antes do fim da campanha'
+      ok: 'Ok! Vamos te enviar um lembrete por e-mail 48 horas antes do fim da campanha'
       active_btn: 'Lembre-me deste projeto'
       deactive_btn: 'Não quero mais ser lembrado'
     send_to_analysis: Seu projeto foi enviado para nossa equipe.
@@ -33,12 +33,12 @@ pt:
         destroy: Remover Novidade
         destroy_confirmation: Deseja remover esta novidade?
       new:
-        notice: Novidade enviada com sucesso!
-        comment: Texto da sua Novidade
+        notice: Postagem no Caderno de Laboratório enviada com sucesso!
+        comment: Texto da sua postagem
         exclusive: Visível apenas para apoiadores
-        submit: Enviar Novidade
-        title: Título da sua Novidade
-        warning: Lembrando que todo post de novidade vai diretamente para o email de
+        submit: Enviar postagem
+        title: Título da sua postagem no Caderno de Laboratório
+        warning: Lembrando que todo post no Caderno de Laboratório vai diretamente para o e-mail de
           seus apoiadores. Por isso, revise bem seu texto antes de enviá-lo.
     project_reports:
       all_contributions_without_reward: Baixar relatório de todos os apoiadores
@@ -64,13 +64,13 @@ pt:
         reports: Relatórios
         posts: Novidades
     project_main:
-      post_call: 'Toda novidade publicada no Entropia Coletiva é enviada diretamente para o email de quem já apoiou seu projeto e também fica disponível para visualização no site. Você pode optar por deixá-la pública, ou visível somente para seus apoiadores aqui nesta aba.'
+      post_call: 'Toda postagem publicada no Caderno de Laboratório de seu projeto é enviada diretamente para o email de quem já apoiou seu projeto e também fica disponível para visualização no site. Você pode optar por deixá-la pública, ou visível somente para seus apoiadores aqui nesta aba.'
       send_post: 'Escrever novidade'
       share: "Compartilhe"
       tweet: "Tweet"
       contribute_project:
         display_status:
-          approved: "Esse projeto já foi aprovado pelo Entropia Coletiva. Em breve ele entrará no ar e estará pronto para receber apoios."
+          approved: "Esse projeto já foi aprovado pela Entropia Coletiva. Em breve ele entrará no ar e estará pronto para receber apoios."
           online: "Você pode apoiar este projeto até o dia %{date} às 23h59m59s"
           failed: "Este projeto não atingiu a meta estipulada de %{goal} até %{date}."
           rejected: "Este projeto não foi aceito. Não é possível realizar um apoio."
@@ -94,7 +94,7 @@ pt:
         edit: Edição
         reports: Relatórios
         posts: Novidades
-      no_rewards_warning: Não viaje! Pense em como irá entregá-las e coloque tudo
+      no_rewards_warning: Planeje a entrega de suas recompensas. Pense em como irá entregá-las e coloque tudo
         isso no orçamento. Prometeu?! CUMPRA! :D
       no_rewards_warning_title: Crie aqui suas recompensas
       contribution_states:

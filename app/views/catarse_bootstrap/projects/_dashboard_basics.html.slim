@@ -13,9 +13,11 @@
       .w-row
         .w-col.w-col-8
           .w-form
+
               = @project.display_errors(:basics)
               - if (current_user && current_user.admin?)
-                = form.input :user_id, as: :string, 
+
+                /= form.input :user_id, as: :string, 
                   wrapper: :two_columns,
                   wrapper_class: 'w-row u-marginbottom-20 card card-terciary',
                   label_wrapper_html: { class: 'w-col w-col-5' },
@@ -40,7 +42,7 @@
                 field_wrapper_html: { class: 'w-col w-col-8 w-col-small-6 w-col-tiny-6' },
                 validation_text: false,
                 preppend_text_wrapper_html: { class: 'w-col w-col-4 w-col-small-6 w-col-tiny-6 text-field prefix no-hover' },
-                preppend_input_text: 'www.catarse.me',
+                preppend_input_text: 'entropiacoletiva.com',
                 preppend_input_text_wrapper_html: { class: 'fontsize-smallest' }
 
               = form.association :category, as: :select, 
@@ -80,10 +82,10 @@
                 append_input_text_wrapper_html: { class: 'fontsize-base lineheight-tightest' }                  
 
         .w-col.w-col-4.w-hidden-small.w-hidden-tiny    
-          a.w-inline-block.card.u-radius.card-guide href="https://www.catarse.me/guides#goals" target="_blank"
+          a.w-inline-block.card.u-radius.card-guide href="http://www.entropiacoletiva.com/guia_dos_pesquisadores.pdf" target="_blank" 
             = image_tag "icon-guides-blue-sm.png", class: "u-left"
-            .fontweight-semibold.fontsize-smallest.fontcolor-secondary Guia dos Realizadores
-            .fontsize-small.fontcolor-dashboard Meta e Prazo
+            .fontweight-semibold.fontsize-smallest.fontcolor-secondary Guia dos Pesquisadores
+            
             
     .section
       .w-container

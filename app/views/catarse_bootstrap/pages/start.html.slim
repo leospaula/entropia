@@ -6,6 +6,17 @@
 
   .page-header
 
+  .w-row.u-margintop-20.u-marginbottom-60
+
+        .w-col.w-col-4.w-col-push-4
+          = link_to t('.submit'), new_project_path, class: 'btn btn-large'
+
+
+  /.w-row.u-margintop-20.u-marginbottom-60
+  /.w-col.w-col-4.w-col-push-4
+  /= link_to t('.submit'), new_project_path, 
+  /class: 'btn btn-large'
+
   	/.w-container.no-responsive
       h1.fontsize-largest.u-text-center.u-marginbottom-70.u-margintop-40 = t('.title')
       - statistics = Statistics.first
@@ -30,7 +41,7 @@
           = link_to t('.submit'), new_project_path, class: 'btn btn-large'
 
 
-  section#learn
+  /section#learn
     .w-container.no-responsive.section
       article.w-row.u-marginbottom-80.u-margintop-30
 
@@ -71,9 +82,7 @@
 
       footer.w-row.u-margin-top-40
 
-        .w-col.w-col-4.w-col-push-4
-          = link_to t('.submit'), new_project_path, 
-        class: 'btn btn-large'
+       
 
   = render 'shared/footer_big'
 
