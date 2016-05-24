@@ -21,7 +21,7 @@ pt:
     push_to_online: Seu projeto está online!
     push_to_online_error: Erro ao colocar o projeto online. Preencha todos os campos obrigatórios.
     twitter:
-      take_a_look: Confira o projeto %{name} no @entropia_coletiva
+      take_a_look: Confira o projeto %{name} na @entropia_coletiva
     video_embed:
       a_project_by_html: Um projeto de %{link} no
     posts:
@@ -33,12 +33,12 @@ pt:
         destroy: Remover Novidade
         destroy_confirmation: Deseja remover esta novidade?
       new:
-        notice: Postagem no Caderno de Laboratório enviada com sucesso!
+        notice: Postagem no Diário de Laboratório enviada com sucesso!
         comment: Texto da sua postagem
         exclusive: Visível apenas para apoiadores
         submit: Enviar postagem
-        title: Título da sua postagem no Caderno de Laboratório
-        warning: Lembrando que todo post no Caderno de Laboratório vai diretamente para o e-mail de
+        title: Título da sua postagem no Diário de Laboratório
+        warning: Lembrando que todo post no Diário de Laboratório vai diretamente para o e-mail de
           seus apoiadores. Por isso, revise bem seu texto antes de enviá-lo.
     project_reports:
       all_contributions_without_reward: Baixar relatório de todos os apoiadores
@@ -65,7 +65,7 @@ pt:
         posts: Novidades
     project_main:
       post_call: 'Toda postagem publicada no Caderno de Laboratório de seu projeto é enviada diretamente para o email de quem já apoiou seu projeto e também fica disponível para visualização no site. Você pode optar por deixá-la pública, ou visível somente para seus apoiadores aqui nesta aba.'
-      send_post: 'Escrever novidade'
+      send_post: 'Escrever página do diário'
       share: "Compartilhe"
       tweet: "Tweet"
       contribute_project:
@@ -94,12 +94,11 @@ pt:
         edit: Edição
         reports: Relatórios
         posts: Novidades
-      no_rewards_warning: Planeje a entrega de suas recompensas. Pense em como irá entregá-las e coloque tudo
-        isso no orçamento. Prometeu?! CUMPRA! :D
+      no_rewards_warning: Planeje a entrega de suas recompensas. Poste no seu Diário de Laboratório. Explique o dia a dia da sua pesquisa.
       no_rewards_warning_title: Crie aqui suas recompensas
       contribution_states:
         confirmed: "Confirmados"
         pending: "Pendentes"
       sidebar:
         contributions: apoios
-        goal: atingidos de %{total}
+        goal: alcançados de %{total}

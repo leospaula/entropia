@@ -408,6 +408,22 @@ p {
   padding-left: 0px;
   float: left;
 }
+.center {
+float:none; 
+display:block; 
+margin-left:auto; 
+margin-right:auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  
+}
+
 .header-link {
   position: static;
   top: 5px;
@@ -1314,6 +1330,11 @@ p {
 .u-text-center {
   text-align: center;
 }
+
+.u-text-left {
+  text-align: left;
+}
+
 .u-text-center.big {
   margin-top: 30px;
 }
@@ -1504,6 +1525,9 @@ p {
 }
 .u-marginbottom-10 {
   margin-bottom: 10px;
+  }
+.u-marginbottom-2 {
+  margin-bottom: 2px;
 }
 .u-radius {
   border-radius: 5px;
@@ -1895,6 +1919,12 @@ p {
 .table {
   width: 100%;
 }
+
+.inst {
+ padding: 20px;
+}
+
+
 .project_img {
   width: 50px;
 }
@@ -2431,6 +2461,14 @@ p {
 .bg-gray {
   background-color: #dce9e7;
 }
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+
+
+
 .before-footer {
   margin-bottom: -80px;
 }
@@ -2739,6 +2777,40 @@ html.w-mod-js *[data-ix="know-more-2"] {
   -ms-transform: translate(0px, 10px);
   transform: translate(0px, 10px);
 }
+
+.partnerships .partnership {
+  width: 16em;
+  display: inline-block;
+  padding: 1em 7%;
+  vertical-align: middle;
+}
+
+.partnerships .partnership img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  line-height: 2em;
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.content {
+  background-color: #d0e1df;
+  margin: 0;
+  padding: 4em 2em 2em 2em;
+  min-height: 20em;
+}
+
 @media (max-width: 991px) {
   body {
     font-size: 14px;
@@ -2746,6 +2818,7 @@ html.w-mod-js *[data-ix="know-more-2"] {
   .section {
     padding: 20px 0px;
   }
+
   .text-field {
     height: 35px;
     font-size: 14px;
@@ -3102,6 +3175,16 @@ html.w-mod-js *[data-ix="know-more-2"] {
   .hero-medium {
     height: 330px;
     padding-top: 120px;
+  }
+
+  .lab_notes {
+
+  background-color: #f2fbf8;
+  }
+
+  .bg_color {
+
+  background-color: #f2fbf8;
   }
   .hero-hello {
     height: 490px;
@@ -3723,6 +3806,10 @@ html.w-mod-js *[data-ix="know-more-2"] {
   }
   .body-alert {
     margin-top: 38px;
+  }
+
+  .img-institution {
+    border-radius: 10px;
   }
 }
 @media (max-width: 479px) {

@@ -7,7 +7,9 @@ pt:
     index:
       title: 'Entropia Coletiva'
       back_a_project: 'Apoie uma pesquisa'
-      banner_before: 'Financie a ciência brasileira '
+      banner_before: 'Ajude a financiar a ciência brasileira'
+      banner_before2: 'Financie pesquisas científicas'
+
       banner_words:
         0: ''
         1: ''
@@ -22,6 +24,10 @@ pt:
       blog: Diários de Laboratório
       expiring: Últimos dias
       recommended: Recomendados
+      lab_note: Diários de Laboratório
+      lab_note_subtitle: Acompanhe as pesquisas, conheça o dia a dia dos laboratórios. Interaja com a ciência
+      institutions: Instituições
+      institutions_subtitle: Instituições com projetos na Entropia Coletiva
       banner_subtitle: 'neurociencias, biologia, sociologia, engenharia, antropologia, astronomia, tecnologia e muito mais. Conheça, inspire-se e apoie pesquisas.'
       box:
         by: por
@@ -37,9 +43,9 @@ pt:
       sidebar:
         titles:
           blog: blog
-          facebook: "Já curtiu nosso Facebook?"
+          facebook: "Curta nossa página no Facebook?"
           newsletter: "Assine nossa newsletter"
-          faq: "Tem alguma dúvida?"
+          faq: "Tire suas dúvidas?"
           schedule: agenda
         placeholders:
           email: "Digite seu email"

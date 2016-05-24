@@ -4,7 +4,7 @@
 
 /.hero-hello
 
- / .w-embed.w-hidden-medium.w-hidden-small.w-hidden-tiny
+  .w-embed.w-hidden-medium.w-hidden-small.w-hidden-tiny
     video poster=image_path("hero-hello.jpg") autoplay="" loop="" style=("width:100%; height: auto; position:absolute; z-index: -1;") 
       source src="sftp://admin@104.131.106.204/var/www/catarse/app/views/catarse_bootstrap/pages/Entropia%20Crowdfunding.mp4" 
 
@@ -12,7 +12,7 @@
       
     
 
-  /.hero-content
+  .hero-content
 
     a.w-lightbox.w-inline-block.btn-play href="#" 
       = image_tag "play-hero-green.svg"
@@ -70,9 +70,9 @@
         = image_tag "icon-tudonada.png", class: "icon-hello-md"        
         .fontweight-semibold.fontsize-jumbo.u-marginbottom-20 = t('.allornothing.title')
         .fontsize-large.u-marginbottom-40 = t('.allornothing.subtitle')
-.u-text-center.section-large
+/.u-text-center.section-large
 
-  /.w-container
+  .w-container
 
     .w-row
       .w-col.w-col-10.w-col-push-1

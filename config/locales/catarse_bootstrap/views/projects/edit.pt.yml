@@ -137,11 +137,11 @@ pt:
       header_text: "Compartilhe o link abaixo com seus amigos e aproveite o momento para fazer ajustes finos que ajudem na sua campanha."
     dashboard_posts:
       title: "Escrever uma novidade"
-      only_to_backers: "Quero que essa novidade seja visível apenas para apoiadores."
+      only_to_backers: "Quero que essa postagem do Diário seja visível apenas para apoiadores."
       publish: 'Publicar novidade'
       discard: 'Descartar'
-      warning: "Toda novidade publicada é enviada diretamente aos seus apoiadores por email. Revise bem o post antes de publicar."
-      old_posts: "Novidades antigas"
+      warning: "Toda postagem publicada no Diário do Laboratório é enviada diretamente aos seus apoiadores por email. Revise bem o post antes de publicar."
+      old_posts: "Postagens do Diário antigas"
     dashboard_project:
       budgets_hint_html: "Informe uma lista com os principais itens do orçamento. Não precisa entrar em detalhes minuciosos, basta uma visão geral. Seus apoiadores gostarão de saber como o dinheiro deles será usado na sua pesquisa. Não existe uma regra&nbsp;quanto a quantidade de itens na lista, mas normalmente 5 costuma ser um bom número!"
       budget_hint_html: "Como o seu dinheiro será utilizado? Quanto mais transparência melhor. Mostre que etapas e processos estarão envolvidos no uso desses recursos. Uma lista com os principais itens do orçamento ou até mesmo um gráfico de pizza vão super bem aqui."

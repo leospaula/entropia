@@ -52,6 +52,13 @@ h1 {
 h2 {
   font-size: 2em;
   line-height: 2em;
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
 }
 
 .text-center {
@@ -81,7 +88,7 @@ h2 {
 }
 
 .content {
-  color: #3f4752;
+  color: #d0e1df;
   margin: 0;
   padding: 4em 2em 2em 2em;
   min-height: 30em;
