@@ -12,11 +12,11 @@ pt:
       logout: Sair
       my_credits: Meus créditos
       partners: Parceiros
-      posts: Novidades
+      posts: Diário de Laboratório
       profile: Meu perfil
       signin: Login
       signup: Cadastre-se
-      submit: Enviar projeto
+      submit: Lançar campanha
       how_work: Como funciona
     footer_channel:
       contact: Contato
@@ -27,7 +27,7 @@ pt:
       terms: "Termos de uso"
       privacy_policy: "Política de Privacidade"
       how_it_works: "Como funciona o %{name}"
-      how_channels_work: "Entenda os Canais no Catarse"
+      how_channels_work: "Entenda os canais na Entropia Coletiva"
       contact: "Contato"
     header_big:
-      projects: "Meus Projetos"
+      projects: "Minhas campanhas"

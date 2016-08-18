@@ -2,7 +2,6 @@ class Payment < ActiveRecord::Base
   DUPLICATION_PERIOD = '30 minutes'
 
   include Shared::StateMachineHelpers
-  include Payment::PaymentEngineHandler
   include Payment::RequestRefundHandler
 
   delegate :user, :project, :invalid_refund, to: :contribution

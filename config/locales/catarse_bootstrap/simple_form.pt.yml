@@ -3,8 +3,8 @@ pt:
     collections:
       project:
         traffic_sources:
-          one: "eu já tive outro projeto no Entropia Coletiva"
-          two: "indicação de uma pessoa que já teve um projeto no Entropia Coletiva"
+          one: "eu já tive outro projeto na Entropia Coletiva"
+          two: "indicação de uma pessoa que já teve um projeto na Entropia Coletiva"
           three: "indicação de amigo/colega/contato profissional"
           four: "a partir de um projeto que estava captando na plataforma"
           five: "artigo em um blog"
@@ -14,7 +14,7 @@ pt:
           nine: "Outro"
     validation_texts:
       reward:
-        minimum_value: "Informe um valor mínimo maior ou igual a 20"
+        minimum_value: "Informe um valor mínimo maior ou igual a 25"
         description: "Informe uma descrição para a recompensa"
       bank_account:
         input_bank_number: "Número do banco inválido"
@@ -50,7 +50,7 @@ pt:
         goal: "Planeje uma meta coerente com o que seu projeto propõe. Revise seu orçamento e não esqueça de incluir a taxa de 13% cobrada pela Entropia Coletiva."
         online_days: "Você pode escolher entre 1 e 60 dias para a sua campanha."
         video_url: "Link do seu vídeo no Vimeo ou <br/> Youtube."
-        about_html: "Fale com paixão e clareza sobre o que será realizado. Esclareça possíveis dúvidas sobre como o dinheiro será utilizado, quem está por trás do projeto, como e quando o projeto será entregue. Transparência atrai mais apoiadores. Lembre-se: seu projeto será acessado por pessoas comuns que decidirão se querem ou não apoiar seu projeto. Capriche! "
+        about_html: "Fale com paixão e clareza sobre o que será realizado. Esclareça possíveis dúvidas sobre como o dinheiro será utilizado, quem está por trás do projeto, como e quando o projeto será entregue. Transparência atrai mais apoiadores. Lembre-se: seu projeto será acessado por pessoas comuns que decidirão se querem ou não apoiar seu projeto."
         headline: "Frase no card do projeto para chamar apoiadores. Deve ter no máximo 100 caracteres e resumir bem o projeto."
         uploaded_image: "Essa imagem será utilizada como a miniatura de seu projeto (PNG, JPG tamanho 600 x 340)"
 

@@ -30,7 +30,7 @@ class Projects::ContributionsController < ApplicationController
   end
 
   def new
-    @contribution = Contribution.new(project: parent, value: 10)
+    @contribution = Contribution.new(project: parent, value: 25)
     authorize @contribution
 
     @title = t('projects.contributions.new.title', name: @project.name)

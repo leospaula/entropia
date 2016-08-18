@@ -1,9 +1,9 @@
 pt:
   pages:
     explore:
-      header_html: "Explore projetos incríveis &nbsp;"
-      success_follow: "Agora você segue a categoria e vai receber semanalmente uma lista com os novos projetos de %{name}"
-      success_unfollow: "Você deixou de seguir essa categoria %{name}"
+      success_follow: "Agora você segue a categoria e vai receber semanalmente uma lista com os novos projetos"
+      success_unfollow: "Você deixou de seguir essa categoria"
+      header_html: "Explore projetos científicos &nbsp;"
       follow: Seguir
       unfollow: Deixar de seguir
       following: seguidores
@@ -14,7 +14,7 @@ pt:
       quick_explore: Busca rápida
       recent: Recentes
       recommended: Recomendados
-      subtitle: Explore os projetos, encontre aquela ciência que te toca! Faça a ciência acontecer!
-      successful: Bem-sucedidos
-      title: Encontre projetos incríveis
+      subtitle: Explore as campanhas, encontre aquela ciência que te toca! Faça a ciência acontecer!
+      successful: Bem-sucedidas
+      title: Encontre campanhas incríveis
 

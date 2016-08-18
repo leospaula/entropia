@@ -40,9 +40,10 @@ gem 'mixpanel_client'
 #gem 'catarse_moip', '~> 3.2.0'
 #gem 'catarse_pagarme', '2.7'
 gem 'iugu'
-#gem 'catarse_iugu_teste', '~> 0.1.8', git: "git://github.com/Frederico-Reis/catarse_iugu_teste"
-gem 'catarse_iugu', '~> 0.1.7', git: "git://github.com/yurimello/catarse_iugu"
+#gem 'catarse_iugu', '~> 0.1.7', git: "git://github.com/yurimello/catarse_iugu"
+gem 'catarse_iugu', '~> 0.1.8', git: "git://github.com/frederico-reis/catarse_iugu"
 #gem 'catarse_pagarme', path: '../catarse_pagarme'
+
 
 # Decorators
 gem 'draper'

@@ -9,7 +9,7 @@ puts 'Seeding the database...'
   { pt: 'Biologia', en: 'Community', fr: 'Comunauté' },
   { pt: 'Química', en: 'Humor', fr: 'Humour' },
   { pt: 'Ciências Humanas e Sociais', en: 'Comicbooks', fr: 'bd' },
-  { pt: 'Economia, Administarção e Finanças', en: 'Dance', fr: 'Dance' },
+  { pt: 'Economia, Administração e Finanças', en: 'Dance', fr: 'Dance' },
   { pt: 'Ecologia e Ciências Ambientais', en: 'Design', fr: 'Design' },
   { pt: 'Física e Astronomia', en: 'Events', fr: 'Événementiel' },
   { pt: 'Geociências', en: 'Fashion', fr: 'Mode' },
@@ -23,12 +23,14 @@ puts 'Seeding the database...'
   { pt: 'História', en: 'Theatre', fr: 'Théatre' },
   { pt: 'Letras e Linguísticas', en: 'Sport', fr: 'Sport' },
   { pt: 'Neurociências', en: 'Web', fr: 'Web' },
-  { pt: 'Ciências dos Mateirais', en: 'Carnival', fr: 'Carnaval' },
+  { pt: 'Ciências dos Materiais', en: 'Carnival', fr: 'Carnaval' },
   { pt: 'Arquitetura e Urbanismo', en: 'Architecture & Urbanism', fr: 'Architecture et Urbanisme' },
   { pt: 'Educação Física e Condicionamento Físico', en: 'Literature', fr: 'Literature' },
   { pt: 'Nanociências', en: 'Mobility & Transportation', fr: 'Transport et Mobilité' },
   { pt: 'Ciências Marinhas', en: 'Environment', fr: 'Environement' },
   { pt: 'Ciências da Comunicação', en: 'Social Business', fr: 'Social' },
+  { pt: 'Divulgação Científica', en: 'Social Business', fr: 'Social' },
+  { pt: 'Eventos Científicos', en: 'Environment', fr: 'Environement' },
 ].each do |name|
    category = Category.find_or_initialize_by(name_pt: name[:pt])
    category.update_attributes({
@@ -42,7 +44,7 @@ puts 'Seeding the database...'
 
 {
   company_name: 'Entropia Coletiva',
-  company_logo: 'http://s27.postimg.org/ofgsyzmwj/Logo_Final_jpg.jpg',
+  company_logo: 'http://www.entropiacoletiva.com/images/logo_big.png',
   host: 'entropiacoletiva.com',
   base_url: "http://entropiacoletiva.com",
 
@@ -55,7 +57,7 @@ puts 'Seeding the database...'
   facebook_app_id: '173747042661491',
   twitter_url: 'https://twitter.com/entropiacc',
   twitter_username: "@entropiacc",
-  mailchimp_url: "http://entropiacoletiva.us12.list-manage1.com/subscribe?u=39b126181d4730739eb0625f0&id=8eddfd8776",
+  mailchimp_url: "http://entropiacoletiva.us12.list-manage.com/subscribe?u=39b126181d4730739eb0625f0&id=d07ab04039",
   catarse_fee: '0.13',
   support_forum: 'http://entropiacoletiva.com/',
   base_domain: 'entropiacoletiva.com',
@@ -78,8 +80,8 @@ puts 'Seeding the database...'
 end
 
 OauthProvider.find_or_create_by!(name: 'facebook') do |o|
-  o.key = '572878822883877'
-  o.secret = '756ed1e769a91be9a6a6dad75ec09186'
+  o.key = '1001442279930440' 
+  o.secret = '5a853d630b8f6f64100d240fa190258b'
   o.path = 'facebook'
 end
 

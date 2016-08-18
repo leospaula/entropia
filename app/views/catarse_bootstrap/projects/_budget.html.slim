@@ -3,6 +3,6 @@
     | Orçamento
   p.fontsize-base
     = @project.budget.try(:html_safe)
-  /- if @project.budgets.present?
+/- if @project.budgets.present?
     = pie_chart @project.budgets.pluck(:name, :value), id: "budget-chart"
 

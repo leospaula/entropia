@@ -16,7 +16,7 @@ pt:
       profile: Meu perfil
       signin: Login
       signup: Cadastre-se
-      submit: Enviar projeto
+      submit: Lançar campanha
       how_work: Como funciona
     footer_channel:
       contact: Contato
@@ -30,4 +30,4 @@ pt:
       how_channels_work: "Entenda os canais na Entropia Coletiva"
       contact: "Contato"
     header_big:
-      projects: "Meus Projetos"
+      projects: "Minhas campanhas"

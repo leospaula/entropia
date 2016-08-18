@@ -32,11 +32,22 @@ nav.project-nav.w-hidden-small.w-hidden-tiny
   .w-container
     .w-row
       .w-col.w-col-9.w-hidden-small.w-hidden-tiny
+
         = link_to '#about', id: 'about_link', class: 'nav-tab selected', data: {target: '#project_about.content'} do
           = t('.menu.about')
+
         = link_to '#posts', id: 'posts_link', class: 'nav-tab' , data: {target: '#project_posts'} do
           => t('.menu.posts')
           span.badge = @posts_count
+
+        /= link_to '#methods', id: 'posts_link', class: 'nav-tab' , data: {target: '#project_posts'} do
+          => t('.menu.posts')
+          span.badge = @posts_count
+
+        /= link_to '#results', id: 'posts_link', class: 'nav-tab' , data: {target: '#project_posts'} do
+          => t('.menu.posts')
+          span.badge = @posts_count
+
         = link_to '#contributions', id: 'contributions_link', class: 'nav-tab' , data: {target: '#project_contributions'} do
           => t('.menu.contributions')
           span.badge = @project.total_contributions

@@ -1,10 +1,13 @@
 footer.main-footer.main-footer-neg
   
   section.w-container
+
+
     .w-row
-      .w-col.w-col-9
+
+      .u-right.w-col.w-col-9.margin-right--130
         .w-row
-          .w-col.w-col-4.w-col-small-4.w-col-tiny-4.w-hidden-tiny
+          .w-col.w-col-4.w-col-small-4.w-col-tiny-4.w-hidden-tiny.w-hidden-medium
           
             = render 'shared/footer_welcome'
           .w-col.w-col-4.w-col-small-4.w-col-tiny-4.footer-full-firstcolumn
@@ -13,8 +16,10 @@ footer.main-footer.main-footer-neg
           .w-col.w-col-4.w-col-small-4.w-col-tiny-4.footer-full-lastcolumn
           
             = render 'shared/footer_navigate'
+      
+
       .w-col.w-col-3.column-social-media-footer
-        .footer-full-signature-text.fontsize-small Assine nossa news
+        .footer-full-signature-text.fontsize-small Assine nossa newsletter
         .w-form
           
           = render 'shared/newsletter'
@@ -30,7 +35,11 @@ footer.main-footer.main-footer-neg
         .w-widget.w-widget-twitter
           = link_to "Follow @#{CatarseSettings[:twitter_username]}", "http://twitter.com/#{CatarseSettings[:twitter_username]}", :class => 'twitter-follow-button', :"data-button"=>"blue", :"data-text-color" => "#ffffff", :"data-link-color"=>"#fffffff", :"data-width" => "224px"
           
+
+
+
+
   .w-container
-    .footer-full-copyleft 
-      = image_tag "logo-footer.png", class: "u-marginbottom-20"
-      .lineheight-loose: a.link-footer-inline[href="pt"] Feito com ciência | #{Date.today.year} | 
+    .footer-full-copyleft
+      = image_tag "logo-footer.png", class: "u-marginbottom-20-logo" 
+      .lineheight-loose: a.link-footer-inline[href="pt"] Faça a ciência acontecer  | #{Date.today.year} | 

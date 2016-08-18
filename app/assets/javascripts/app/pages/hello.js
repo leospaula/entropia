@@ -38,7 +38,8 @@ App.addChild('Hello', {
     that.player = new YT.Player('player', {
       height: '720',
       width: '1280',
-      videoId: 'iRQBoAZa-Sc',
+      videoId: 'sWREjiQJsM4',
+      //videoId: 'iRQBoAZa-Sc',
       playerVars:{
         controls: app.isMobile() ? 1 : 0,
         showInfo: 0,

@@ -1,4 +1,4 @@
-pt:
+ pt:
   projects:
     index_header:
       subtitle: Financie a ciência brasileira de maneira colaborativa e torne-se parte de algo
@@ -9,6 +9,9 @@ pt:
       back_a_project: 'Apoie uma pesquisa'
       banner_before: 'Ajude a financiar a ciência brasileira'
       banner_before2: 'Financie pesquisas científicas'
+      page_title: 'Financie a ciência que'
+      page_subtitle: 'importa para você' 
+
 
       banner_words:
         0: ''
@@ -27,19 +30,19 @@ pt:
       lab_note: Diários de Laboratório
       lab_note_subtitle: Acompanhe as pesquisas, conheça o dia a dia dos laboratórios. Interaja com a ciência
       institutions: Instituições
-      institutions_subtitle: Instituições com projetos na Entropia Coletiva
+      institutions_subtitle: Instituições com campanhas na Entropia Coletiva
       banner_subtitle: 'neurociencias, biologia, sociologia, engenharia, antropologia, astronomia, tecnologia e muito mais. Conheça, inspire-se e apoie pesquisas.'
       box:
         by: por
         when: em
       banner: "Conheça a pesquisa"
-      explore: "Explore projetos"
+      explore: "Explore campanhas"
       links:
         channels: "."
-        recommended: " projetos recomendados"
-        expiring: "Explore projetos nos últimos dias"
-        recents: "Explore projetos recentes"
-        near: "Explore projetos perto de você"
+        recommended: " campanhas recomendadas"
+        expiring: "Explore campanhas nos últimos dias"
+        recents: "Explore campanhas recentes"
+        near: "Explore campanhas perto de você"
       sidebar:
         titles:
           blog: blog
@@ -48,7 +51,7 @@ pt:
           faq: "Tire suas dúvidas?"
           schedule: agenda
         placeholders:
-          email: "Digite seu email"
+          email: "Digite seu e-mail"
         buttons:
           newsletter: Enviar
       sections:

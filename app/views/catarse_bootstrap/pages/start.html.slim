@@ -1,18 +1,18 @@
 - content_for :title, t('.page-title')
 
-= render 'shared/header_big'
+= render 'shared/header_big', overlayer: false
 
 .project-start-wrapper
 
-  .page-header
+  
 
-  .w-row.u-margintop-20.u-marginbottom-60
+  .w-row.u-margintop-130.u-marginbottom-130
 
         .w-col.w-col-4.w-col-push-4
           = link_to t('.submit'), new_project_path, class: 'btn btn-large'
 
 
-  /.w-row.u-margintop-20.u-marginbottom-60
+  /.w-row.u-margintop-130.u-marginbottom-130
   /.w-col.w-col-4.w-col-push-4
   /= link_to t('.submit'), new_project_path, 
   /class: 'btn btn-large'

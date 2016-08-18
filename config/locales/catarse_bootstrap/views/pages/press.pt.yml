@@ -7,15 +7,15 @@ pt:
       stats:
         title: "Nossos números"
         subtitle: "Muitos cientistas encontraram na plataforma uma poderosa ferramenta para viabilizar financeiramente seus projetos de pesquisa. Essa história pode ser contada em números."
-        people_html: "Pessoas já apoiaram pelo menos <br>1 projeto no Entropia Coletiva"
-        projects_html: "Projetos já foram <br>financiados no Entropia Coletiva"
+        people_html: "Pessoas já apoiaram pelo menos <br>1 projeto na Entropia Coletiva"
+        projects_html: "Projetos já foram <br>financiados na Entropia Coletiva"
         money_html: "Doados para projetos <br>publicados por aqui"
         cta_html: "Veja dados completos separados por categoria &gt;"
       abstract:
-        title: "O Entropia Coletiva é o primeiro site de crowdfunding, ou financiamento coletivo de pesquisas científicas do Brasil. Somos o ponto de encontro da nova comunidade científica, das pessoas que fazem a ciência, dos que financiam ela e de todos que sabem a importância da ciência para um país."
+        title: "A Entropia Coletiva é a primeira plataforma de crowdfunding, ou financiamento coletivo de pesquisas científicas do Brasil. Somos o ponto de encontro da nova comunidade científica, das pessoas que fazem a ciência, dos que financiam ela e de todos que sabem a importância da ciência para um país."
       history:
-        title: "História da fundação do Entropia Coletiva"
-        subtitle: "Primeira plataforma de financiamento coletivo para projetos científicos no Brasil, o Entropia Coletiva entrou no ar em 15 de março de 2016."
+        title: "História da fundação da Entropia Coletiva"
+        subtitle: "Primeira plataforma de financiamento coletivo para projetos científicos no Brasil, a Entropia Coletiva entrou no ar em 15 de março de 2016."
         cta_html: "Leia a história completa &gt;"      
       social:
         title: "Acompanhe nossas histórias"

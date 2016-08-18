@@ -131,7 +131,7 @@ pt:
       channel_post:
         title: 'Título'
         body: 'Conteúdo'
-        visible: 'Publicar (Marque caso queira este Caderno de Laboratório)'
+        visible: 'Publicar (Marque caso queira publicar esta postagem no seu Diário de Laboratório)'
     errors:
       models:
         payment:
@@ -250,8 +250,8 @@ pt:
       success: As informações foram atualizadas
       failed: 'As informações não foram salvas, verifique se todos os campos foram preenchidos corretamente'
     delete:
-      posts: 'Novidade apagada com sucesso'
-    video_regex_validation: somente URLs do Youtube ou Vimeo são aceitas
+      posts: 'Postagem no Diário apagada com sucesso'
+    video_regex_validation: somente URLs do Youtube 
   payment:
     state:
       pending: "Aguardando confirmação do pagamento"
@@ -283,7 +283,7 @@ pt:
     contribution_value: Valor do apoio
     service_fee: Taxa da Entropia Coletiva
     user_name: Nome do apoiador
-    user_email: Email perfil Entropia Coletiva
+    user_email: Email perfil da Entropia Coletiva
     cpf: Cpf do apoiador
     payer_email: Email do meio de pagamento
     gateway: Meio de pagamento
@@ -308,7 +308,7 @@ pt:
     edit: Atualizar canal
     image_hint: Tamanho máximo (600x121px)
     subscribed: "+ %{count} seguidores"
-    back_to_news: '← Voltar para os Cadernos de Laboratório'
+    back_to_news: '← Voltar para o Diário de Laboratório'
     follow: "Siga o canal"
     following: "Seguindo"
     unfollow: "Deixar de seguir"

@@ -38,7 +38,7 @@ class UsersController < ApplicationController
       @title = "#{@user.display_name}"
       @unsubscribes = @user.project_unsubscribes
       @credit_cards = @user.credit_cards
-      build_bank_account
+      
     }
   end
 
@@ -58,7 +58,7 @@ class UsersController < ApplicationController
     authorize resource
     @unsubscribes = @user.project_unsubscribes
     resource.links.build
-    build_bank_account
+    
   end
 
   def update
@@ -127,9 +127,7 @@ class UsersController < ApplicationController
     @user ||= params[:id].present? ? User.find_active!(params[:id]) : User.with_permalink.find_by_permalink(request.subdomain)
   end
 
-  def build_bank_account
-    @user.build_bank_account unless @user.bank_account
-  end
+ 
 
   def permitted_params
     params.require(:user).permit(policy(resource).permitted_attributes)

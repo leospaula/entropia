@@ -7,11 +7,11 @@ pt:
       faq: FAQ
       help: Blog
       profile: Meus dados
-      projects: Meus projetos
+      projects: Minhas campanhas
       signin: Login
       signup: Cadastre-se
-      submit: Entre com seu projeto
-      search: Busque projetos
+      submit: Lançar campanha
+      search: Buscar campanhas
     login:
       login_with_facebook: Entre com sua conta do Facebook
     user:

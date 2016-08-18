@@ -7,6 +7,7 @@
           .fontweight-semibold.fontsize-large= t('.project_start')
           p.fontsize-base= t('.project_start_subtitle')
         .w-col.w-col-2
+
 = simple_form_for @project, html: { class: 'project-form w-form' } do |form|
   .section
     .w-container
@@ -66,7 +67,7 @@
                 validation_text: false,
                 preppend_text_wrapper_html: { class: 'w-col w-col-4 w-col-small-6 w-col-tiny-6 text-field prefix no-hover' },
                 preppend_input_text: 'R$',
-                preppend_input_text_wrapper_html: { class: 'fontsize-base lineheight-tightest' }                
+                preppend_input_text_wrapper_html: { class: 'fontsize-base lineheight-tightest-valor' }                
 
               = form.input :online_days,
                 type: 'number',
@@ -84,7 +85,7 @@
         .w-col.w-col-4.w-hidden-small.w-hidden-tiny    
           a.w-inline-block.card.u-radius.card-guide href="http://www.entropiacoletiva.com/guia_dos_pesquisadores.pdf" target="_blank" 
             = image_tag "icon-guides-blue-sm.png", class: "u-left"
-            .fontweight-semibold.fontsize-smallest.fontcolor-secondary Guia dos Pesquisadores
+            .fontweight-semibold.fontsize-smallest-guia.fontcolor-secondary Guia dos Pesquisadores
             
             
     .section

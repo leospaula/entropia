@@ -1,18 +1,22 @@
 - content_for :title, t('.titles.site')
 
-.w-container
-  .u-marginbottom-10
+
+
+.w-container.login
+  .u-marginbottom-10.login
     = render 'devise/shared/header'
+
   .w-row
     .w-col.w-col-6.box-login.w-col-push-3
+
       .fontweight-semibold.u-text-center.fontsize-large.u-marginbottom-10= t '.titles.header'
       .fontsize-small.u-text-center.u-marginbottom-10
         span.fontcolor-secondary=> t '.have_account_html'
         = link_to t('.links.login'), new_user_session_path, class: 'link alt-link fontweight-semibold'
-      .login-fb
-        = link_to t('.form.inputs.facebook'), user_omniauth_authorize_path(provider: :facebook, locale: nil), class: 'btn btn-medium btn-fb'
-      .separator
-        .text.or = t('or')
+
+      
+      
+
       .w-form
         = simple_form_for resource, as: resource_name, html: {novalidate: true}, url: sign_up_path  do |form|
           = render 'devise/shared/alert'
@@ -24,6 +28,13 @@
           .u-marginbottom-10
             = form.input_field :newsletter, as: :boolean, boolean_style: :inline, class: 'checkbox-fix', checked: true
             label.w-form-label.fontsize-smallest= t('.form.labels.newsletter')
-          = form.button :submit, t('.form.inputs.submit'), class:'btn btn-medium'
+          = form.button :submit, t('.form.inputs.submit'), class:'btn-login btn-medium'
+
+		.separator
+		        .text.or = t('or')
+
+		.login-fb
+        = link_to t('.form.inputs.facebook'), user_omniauth_authorize_path(provider: :facebook, locale: nil), class: 'btn-login btn-medium btn-fb' 
+
       .fontsize-smallest.u-text-center.u-marginbottom-30
         = t(".form.labels.accept", terms_url: CatarseSettings[:terms_url], privacy_url: CatarseSettings[:privacy_url]).html_safe

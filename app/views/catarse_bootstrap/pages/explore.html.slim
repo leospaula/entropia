@@ -26,6 +26,7 @@
       a.explore-toggle.fontsize-larger.link-hidden-white.fontweight-light href="#"
         = t(".header_html")
         span.fa.fa-angle-down
+
     #categories-wrapper.w-hidden
       .w-row
         - unless categories.empty?
@@ -74,6 +75,7 @@
 
 section.w-container.u-marginbottom-10
     .w-row.u-margintop-10.u-marginbottom-40
+
       #explore_results[data-projects-path=projects_path]
         .w-row
           .follow-category.w-hidden
@@ -82,7 +84,7 @@ section.w-container.u-marginbottom-10
                 | Category-name
             .w-col.w-col-6.w-col-small-5.w-col-tiny-5
               .category-follow
-                .w-row
+                /.w-row
                   .w-col.w-col-8.w-hidden-small.w-hidden-tiny.w-clearfix
                     .following.fontsize-small.fontcolor-secondary.u-right
                       span.count
@@ -109,7 +111,3 @@ section.section.loadmore
 
 
 = render 'shared/footer_big'
-
-javascript:
-    (function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-  d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");$.src="//v2.zopim.com/?3hEXO8j8KbakHDKFf6yf6erP985Et4Ml";z.t=+new Date;$.type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");</script>

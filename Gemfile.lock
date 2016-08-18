@@ -36,10 +36,10 @@ GIT
       orm_adapter
 
 GIT
-  remote: git://github.com/yurimello/catarse_iugu
-  revision: b21b5f4f6b66c39eabe0b954b73d4cabe373eef5
+  remote: git://github.com/frederico-reis/catarse_iugu
+  revision: f9b61f0bc429240513f702940bff54d91e990bbe
   specs:
-    catarse_iugu (0.1.7)
+    catarse_iugu (0.1.8)
       iugu
       rails (~> 4.1)
       slim-rails
@@ -689,7 +689,7 @@ DEPENDENCIES
   capybara (~> 2.2.0)
   carrierwave (~> 0.10.0)
   catarse_api!
-  catarse_iugu (~> 0.1.7)!
+  catarse_iugu (~> 0.1.8)!
   catarse_monkeymail (>= 0.1.6)
   catarse_settings_db (>= 0.1.0)
   chartkick
@@ -768,5 +768,8 @@ DEPENDENCIES
   weekdays
   zonebie
 
+RUBY VERSION
+   ruby 2.2.2p95
+
 BUNDLED WITH
-   1.11.2
+   1.12.5

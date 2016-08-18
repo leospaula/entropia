@@ -15,7 +15,7 @@ pt:
         online: 'online'
         expired: "finalizado"
         rejected: "recusado"
-        failed: "não financiado"
+        failed: "não alcançou a meta"
         successful: financiado
         approved: aprovado
         reached_goal: financiado
@@ -39,7 +39,7 @@ pt:
       display_status:
         expired: "finalizado"
         rejected: "rejeitado"
-        failed: "Não-financiado"
+        failed: "Não alcançou a meta"
         successful: "Bem-sucedido"
         approved: aprovado
         reached_goal: financiado

@@ -1,60 +1,57 @@
-pt:
+ pt:
   projects:
     index_header:
-      subtitle: Financie projetos de maneira colaborativa e torne-se parte de algo
-        maior. Promova uma catarse coletiva! Você é a peça que falta nesta história.
-      title: Faça acontecer os projetos em que você acredita
+      subtitle: Financie a ciência brasileira de maneira colaborativa e torne-se parte de algo
+        maior. Promova uma Entropia Coletiva! Você é a engrenagem que falta nesta história.
+      title: Faça parte do avanço científico
     index:
-      title: 'Catarse'
-      back_a_project: 'Apoie um projeto'
-      banner_before: 'Tire '
+      title: 'Entropia Coletiva'
+      back_a_project: 'Apoie uma pesquisa'
+      banner_before: 'Ajude a financiar a ciência brasileira'
+      banner_before2: 'Financie pesquisas científicas'
+      page_title: 'Financie a ciência que'
+      page_subtitle: 'importa para você' 
+
+
       banner_words:
-        0: 'sonhos'
-        1: 'discos'
-        2: 'exposições'
-        3: 'pesquisas'
-        4: 'carnavais'
-        5: 'fotografias'
-        6: 'peças de teatro'
-        7: 'documentários'
-        8: 'livros'
-        9: 'espetáculos'
-        10: 'paixões'
-        11: 'encontros'
-        12: 'músicas'
-        13: 'produtos'
-        14: 'atitudes'
-        15: 'filmes'
-        16: 'quadrinhos'
-        17: 'ideias'
-      banner_after: ' do papel'
-      see_all: 'Ver todos'
-      near_you: 'Próximos a você'
+        0: ''
+        1: ''
+        2: ''
+        3: ''
+        4: ''
+        5: ''
+      banner_after: ''
+      see_all: 'Explorar todos'
+      near_you: 'Na sua região'
       recents: Recentes
-      blog: Blog do Catarse
-      expiring: Na reta final
+      blog: Diários de Laboratório
+      expiring: Últimos dias
       recommended: Recomendados
-      banner_subtitle: 'Música, quadrinhos, cinema, impacto social, tecnologia e muito mais. Conheça, inspire-se e apoie projetos.'
+      lab_note: Diários de Laboratório
+      lab_note_subtitle: Acompanhe as pesquisas, conheça o dia a dia dos laboratórios. Interaja com a ciência
+      institutions: Instituições
+      institutions_subtitle: Instituições com campanhas na Entropia Coletiva
+      banner_subtitle: 'neurociencias, biologia, sociologia, engenharia, antropologia, astronomia, tecnologia e muito mais. Conheça, inspire-se e apoie pesquisas.'
       box:
         by: por
         when: em
       banner: "Conheça a pesquisa"
-      explore: "Explore projetos"
+      explore: "Explore campanhas"
       links:
-        channels: "Descubra o Canal Asas"
-        recommended: "Descubra projetos recomendados"
-        expiring: "Descubra projetos na reta final"
-        recents: "Descubra projetos recentes"
-        near: "Descubra projetos perto de você"
+        channels: "."
+        recommended: " campanhas recomendadas"
+        expiring: "Explore campanhas nos últimos dias"
+        recents: "Explore campanhas recentes"
+        near: "Explore campanhas perto de você"
       sidebar:
         titles:
           blog: blog
-          facebook: "já curtiu nosso face?"
-          newsletter: "Assine nossa news"
-          faq: "tá com dúvida?"
+          facebook: "Curta nossa página no Facebook?"
+          newsletter: "Assine nossa newsletter"
+          faq: "Tire suas dúvidas?"
           schedule: agenda
         placeholders:
-          email: "Digite seu email"
+          email: "Digite seu e-mail"
         buttons:
           newsletter: Enviar
       sections:
@@ -63,9 +60,9 @@ pt:
         recommended:
           title: 'Recomendados'
         expiring:
-          title: "Na reta final"
+          title: "Últimos dias"
         recents:
           title: "Recentes"
         channels:
-          title: 'Canal Asas'
+          title: '.'
 

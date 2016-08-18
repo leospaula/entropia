@@ -1,4 +1,4 @@
-class DirectRefundWorker
+/class DirectRefundWorker
   include Sidekiq::Worker
   sidekiq_options retry: false
 

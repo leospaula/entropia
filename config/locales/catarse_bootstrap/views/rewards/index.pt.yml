@@ -1,6 +1,8 @@
 pt:
   rewards:
     form:
+      success_follow: "Agora você segue a categoria e vai receber semanalmente uma lista com os novos projetos"
+      success_unfollow: "Você deixou de seguir essa categoria"
       edit: "Editar recompensa"
       reward: Recompensa
       info_box: "Você pode limitar a quantidade disponível de uma recompensa. Uma vez que o limite é atingido, a recompensa será marcada como ESGOTADA. A previsão de entrega é a data que você pretende entregar a recompensa aos apoiadores. Se você quiser mudar a ordem das recompensas, basta arrastá-las por aqui. Experimente!"
@@ -11,6 +13,8 @@ pt:
       available: "Quantidade disponível"
       submit: "Salvar"
     index:
+      success_follow: "Agora você segue a categoria e vai receber semanalmente uma lista com os novos projetos"
+      success_unfollow: "Você deixou de seguir essa categoria"
       select_reward: "Selecione essa recompensa"
       display_remaining: "%{remaining} de %{maximum} disponíveis"
       dont_want: "Não quero recompensa"

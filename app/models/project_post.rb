@@ -15,7 +15,8 @@ class ProjectPost < ActiveRecord::Base
   before_validation :reference_user
 
   scope :ordered, ->() { order("created_at desc") }
-
+  scope :recent, -> { where(online_date: 10.days.ago.. Time.current) }
+  
   def reference_user
     self.user_id = self.project.try(:user_id)
   end

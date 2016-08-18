@@ -7,8 +7,8 @@
     '
     = t('admin.management.total')
 
-  h3 = t('admin.filter.title')
-  = simple_form_for '', url: admin_projects_path, method: :get do |form|
+  h3 = t('Com grandes poderes vêm grandes responsabilidades; Adiministre com carinho!')
+  /= simple_form_for '', url: admin_projects_path, method: :get do |form|
     .w-row
       = form.input :order_by, as: :hidden, input_html: {value: params[:order_by], class: 'w-input text-field'}
       .w-col-3.w-col
@@ -40,7 +40,7 @@
           '
           = pluralize_without_number @scoped_projects.count(:all), t('found_singular'), t('found_plural')
 
-
+  .w-row
   = paginate @projects
   - if @scoped_projects.count(:all) < 1
     = t('.no_projects')
@@ -59,6 +59,7 @@
           th.w-col-1.w-col
             a data-sort="project_totals.total_contributions" href='#'= t('.total_contributions')
             span.sort-order
+
           th.w-col-1.w-col= t('admin.table.recommended')
           th.w-col-1.w-col
             a data-sort="online_date" href='#'= t('.online_date')
@@ -74,12 +75,16 @@
       tbody
         - @projects.includes(:category).each do |project|
           tr id=project.id class=cycle("card", "card card-secondary")
+
             td.w-col-2.w-col= link_to project.name, project_by_slug_path(permalink: project.permalink)
             td.w-col-1.w-col= project.category
             td.w-col-1.w-col= best_in_place [:admin, project], :goal, method: :put, type: :input, display_as: :display_goal
             td.w-col-1.w-col= "#{project.display_pledged_with_cents} (#{project.progress}%)"
             td.w-col-1.w-col= project.total_contributions
+
             td.w-col-1.w-col= best_in_place [:admin, project], :recommended, method: :put, type: :checkbox, collection: [t('no'), t('yes')]
+            
+
             td.w-col-1.w-col= project.online_date.strftime('%d/%m/%Y') if project.online_date
             td.w-col-1.w-col= project.display_expires_at
             td.w-col-1.w-col= project.updated_at.strftime('%d/%m/%Y')

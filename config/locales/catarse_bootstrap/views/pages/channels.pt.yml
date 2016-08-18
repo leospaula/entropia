@@ -65,9 +65,9 @@ pt:
       form:
         save_submit: Salvar e visualizar
       update:
-        published_message: Sua novidade foi publicada e enviada por email aos seguidores
+        published_message: Sua postagem no Diário foi publicada e enviada por email aos seguidores
           do canal.
-      warning_html: Lembrando que toda novidade publicada vai diretamente para o
+      warning_html: Lembrando que toda postagem no Diário publicada vai diretamente para o
         email de seus seguidores. Por isso, revise bem seu texto antes de enviá-lo.
     posts_menu: Gerenciar novidades
     table:

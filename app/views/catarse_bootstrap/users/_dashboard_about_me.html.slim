@@ -19,7 +19,7 @@
                 .w-col.w-col-4.w-sub-col
                   = form.input :cover_image, label: '', as: :file, required: false, hint: (@user.cover_image.present? ? image_tag(@user.cover_image.base.url, size: '220x172#') : '' ) 
 
-          - if current_user && current_user.admin?
+          /- if current_user && current_user.admin?
             .w-row.u-marginbottom-30.card.card-terciary
               .w-col.w-col-5.w-sub-col
                 label.field-label.fontweight-semibold Endereço do seu perfil
@@ -29,7 +29,7 @@
                   .w-col.w-col-6.w-col-small-6.w-col-tiny-6
                     = form.input_field :permalink, as: :string, class: 'text-field positive prefix'
                   .w-col.w-col-6.w-col-small-6.w-col-tiny-6.text-field.postfix.no-hover
-                    .fontcolor-secondary.fontsize-smaller &nbsp;&nbsp;.catarse.me
+                    .fontcolor-secondary.fontsize-smaller &nbsp;&nbsp;.entropiacoletiva.com
                 
 
           .w-row.u-marginbottom-30.card.card-terciary
